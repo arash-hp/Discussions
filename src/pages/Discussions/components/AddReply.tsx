@@ -28,7 +28,7 @@ const AddReply: FC<AddReplyProps> = ({ onAdd }) => {
     <Card sx={{boxShadow:0, flexGrow:1}}>
       <Box sx={{ p: "15px" }}>
         <Stack direction="row" spacing={2} alignItems="flex-start">
-          <Avatar variant="rounded" alt="user-avatar" />
+          <Avatar variant="rounded" alt="user-avatar" sx={{borderRadius:'50%'}} />
           <Textarea
             sx={{ flexGrow: 1 }}
             minRows={1}
